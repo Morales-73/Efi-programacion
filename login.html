@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- fuente de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <!-- archivo css -->
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+<!-- ------------------------ Encabezado - Barra de Navegación  -->
+    <nav class="navbar">
+        <div class="brand_image">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="producto.html" _target="blank">Productos</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="images/img-login.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                    <form>
+                        <!-- titulo login -->
+                        <div class="subtitulo">
+                            <h1>Bienvenido!</h1>
+                        </div>
+            
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form3Example3" class="form-control form-control-lg" placeholder="Ingrese una dirección válida" />
+                            <label class="form-label" for="form3Example3">Correo electrónico</label>
+                        </div>
+            
+                        <!-- Password input -->
+                        <div class="form-outline mb-3">
+                            <input type="password" id="form3Example4" class="form-control form-control-lg" placeholder="Ingrese su contraseña" />
+                            <label class="form-label" for="form3Example4">Contraseña</label>
+                        </div>
+            
+                        <div class="d-flex justify-content-between align-items-center">
+                            <!-- Checkbox -->
+                            <div class="form-check mb-0">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                                <label class="form-check-label" for="form2Example3">Recuérdame</label>
+                            </div>
+                            <a href="#!" class="text-body">¿Ha olvidado su contraseña?</a>
+                        </div>
+            
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar Sesión</button>
+                            <p class="small fw-bold mt-2 pt-1 mb-0">
+                                ¿No tienes una cuenta?
+                                <a href="registro.html" target="_blank" class="link-danger">Registrar</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Sección de pie de página -->
+    <section class="contenedor_foot">
+        <!-- Footer -->
+        <footer class="text-dark">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Juguetería Valentín</h5>
+                        <p>Somos una familia de jugueteros con mas de 30 años en el rubro. Atención, producto y calidad.</p>
+                    </div>
+            
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Páginas</h5>
+            
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="legales.html" class="text-dark">Legales Promo BBVA GO</a>
+                            </li>
+                            <li>
+                                <a href="privacidad.html" class="text-dark">Política de Privacidad</a>
+                            </li>
+                            <li>
+                                <a href="seguridad.html" class="text-dark">Política de Seguridad</a>
+                            </li>
+                            <li>
+                                <a href="faqs.html" class="text-dark">Preguntas Frecuentes</a>
+                            </li>
+                            <li>
+                                <a href="terminos.html" class="text-dark">Términos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+            
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Contacto</h5>
+            
+                        <ul class="list-unstyled">
+                            <li>
+                                Si compraste por la web:<br>
+                                <a href="mailto:jugueteriavalentin@gmail.com" target="_blank" class="text-dark">jugueteriavalentin@gmail.com</a>
+                            </li>
+                            <li>
+                                Si compraste por Mercado Libre:<br>
+                                <a href="mailto:pwebjugueteriavalentin@gmail.com" target="_blank" class="text-dark">pwebjugueteriavalentin@gmail.com</a>
+                            </li>
+                            <li>
+                                <br><a class="btn btn-outline-danger" href="arrepentimiento.html" role="button">BOTON DE ARREPENTIMIENTO</a>
+                            </li>
+                            <li>
+                                <br><a href="https://autogestion.produccion.gob.ar/consumidores" class="text-dark" target="_blank">Defensa de las y los Consumidores. Para reclamos. Ingrese aquí</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center p-3 copyright">
+                © 2022 Copyright:
+                <a class="text-dark" href="https://github.com/meli-morenooo">Moreno Melisa | Github</a>
+            </div>
+        </footer>
+    </section>
+
+<!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
