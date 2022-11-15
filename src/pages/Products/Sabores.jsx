@@ -12,9 +12,8 @@ export default function Sabores() {
 
   return (
     <>
-        <h1 className={`text-center mt-5 text-${theme.color}`}>{categorias[0].titulo}</h1>
         <div className="container mb-5 p-5">
-          <div className="d-flex justify-content-evenly align-items-center flex-wrap border rounded-5 p-4">
+          <div className="d-flex justify-content-evenly align-items-center flex-wrap p-4">
             {sabores.map(s =>
               <div key={s.id}>
                 <img className="rounded-4 img-fluid" src={s.img} style={{width:"400px", height:"195px"}} alt="img" />

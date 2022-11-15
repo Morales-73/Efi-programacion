@@ -56,7 +56,7 @@ const Layout = () =>{
                                     <Link to={"/"} className={`text-decoration-none text-${theme.color} fs-5 me-5`}>{paginas[0].home}</Link>
                                 </li>
                                 <li className="nav-item me-2">
-                                    <Link to={"/productos"} className={`text-decoration-none text-${theme.color} fs-5 me-4`}>{paginas[1].productos}</Link>
+                                    <Link to={"/productos"} className={`text-decoration-none text-${theme.color} fs-5 me-5`}>{paginas[1].productos}</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to={"/contacto"} className={`text-decoration-none text-${theme.color} fs-5 me-5`}>{paginas[3].contacto}</Link>

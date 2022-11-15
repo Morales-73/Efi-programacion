@@ -1,7 +1,12 @@
-import React, {useContext} from 'react'
+import React, {useContext, useState} from 'react'
 import {Link} from 'react-router-dom'
 import {themeContext} from '../../context/themeContext';
 import {langcontext} from "../../context/langContext";
+
+import Sabores from "../Products/Sabores"
+import Postres from "../Products/Postres"
+import Palitos from "../Products/Palitos"
+import Bombones from "../Products/Bombones"
 
 export default function Catalogue() {
 
@@ -10,25 +15,34 @@ export default function Catalogue() {
 
     const {categorias} = idioma
 
+    const [option, setOption ] = useState("Sabores")
+
+    const handleLink = (e) => {
+        const value = e.target.text
+        setOption(value)
+    }
+
   return (
     <>
-        <h1 className={`text-center mt-5 mb-5" text-${theme.color}`}>Productos</h1>
-          <div className="container h-100">
-              <div className="border p-4 rounded-2 mt-5 mb-5">
-                  
-                  <div className="d-flex justify-content-center align-items-center flex-wrap gap-4">
-                      {categorias.map(p =>
-                          <div className="card" style={{ width: "18rem"}} key={p.id}>
-                              <img src={p.img} className="card-img-top" alt="..." style={{height: '186px'}} />
-                              <div className={`card-body bg-${theme.theme}`}>
-                                  <h5 className={`card-title text-${theme.color}`}>{p.titulo}</h5>
-                                  <p className={`card-text text-${theme.color}`}>{p.descripcion}</p>
-                                  <Link to={`/productos/${p.name}`} >Ver mas</Link>
-                              </div>
-                          </div>
-                      )}
-                  </div>
-              </div>
+        {/* <h1 className={`text-center mt-5 mb-5" text-${theme.color}`}>Productos</h1> */}
+          <div className="container">
+
+            
+            <div className="mt-2 d-flex justify-content-center">
+                {categorias.map(c =>
+                    <ul className="nav bg-warning" key={c.id}>
+                        <li className="nav-item"><Link className="text-decoration-none ms-5 me-5 text-white fs-5" onClick={handleLink} href="">{c.titulo}</Link></li>
+                    </ul>
+                )}
+            </div>
+
+            <div>
+                {option === "Sabores" ? <Sabores/> : null}
+                {option === "Postres" ? <Postres/> : null}
+                {option === "Palitos" ? <Palitos/> : null}
+                {option === "Bombones" ? <Bombones/> : null}
+            </div>
+
           </div>
     </>
   )
