@@ -31,7 +31,7 @@ export default function Catalogue() {
             <div className="mt-2 d-flex justify-content-center">
                 {categorias.map(c =>
                     <ul className="nav bg-warning" key={c.id}>
-                        <li className="nav-item"><Link className="text-decoration-none ms-5 me-5 text-white fs-5" onClick={handleLink} href="">{c.titulo}</Link></li>
+                        <li className="nav-item"><Link className="text-decoration-none  ms-5 me-5 text-white fs-5" onClick={handleLink} href="">{c.titulo}</Link></li>
                     </ul>
                 )}
             </div>

@@ -21,7 +21,7 @@ export default function Sabores() {
                   <h4 className={`text-${theme.color} mb-3`}>{s.name}</h4>
                   <h6 className={`mb-5 text-${theme.color}`}>{s.descripcion}</h6>
                 </div>
-                <button className="btn btn-outline-primary w-100">Texto</button>
+                <button className="btn btn-outline-primary w-100 mt-100">Texto</button>
               </div>
             )}
           </div>

@@ -15,7 +15,9 @@ export default function Contacts() {
     <>
         <div className="row p-5 w-100 vh-100" style={{height:"100%"}}>
           <div className="col-12 col-sm-12 col-md-12 col-lg-6 p-5 rounded d-flex flex-column justify-content-center">
-            <h1 className={`fs-1 mb-5 text-${theme.color}`}>{contactanos}</h1>
+            <div className=' d-flex justify-content-center'>
+                <h1 className={`fs-1 mb-5 text-${theme.color}`}>{contactanos}</h1>
+            </div>
             <Form/>
           </div>
 

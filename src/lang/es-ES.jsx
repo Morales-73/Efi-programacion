@@ -96,7 +96,7 @@ export const esp = {
     email: "Email",
     mensaje: "Mensaje",
     enviar: "Enviar",
-    redes: "Seguinos en nuestras redes sociales",
+    redes: "Síguenos en nuestras redes sociales",
     nombreApellido: "Nombre y Apellido",
     correo: "Correo Electronico",
     contraseña: "Contraseña",
