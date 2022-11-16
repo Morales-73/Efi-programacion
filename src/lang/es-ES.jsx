@@ -105,5 +105,6 @@ export const esp = {
     terminos: "Terminos de servicio",
     derechos: "Todos los derechos reservados",
     nuestrosProductos: "Nuestros productos",
-    verMas: "Ver más"
+    verMas: "Ver más",
+    enviarRegistro: "Enviar Registro"
 }

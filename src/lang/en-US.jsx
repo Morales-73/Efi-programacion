@@ -105,5 +105,6 @@ export const eng = {
     terminos: "Terms of service",
     derechos: "All rights reserved",
     nuestrosProductos: "Our products",
-    verMas: "See more"
+    verMas: "See more",
+    enviarRegistro: "Send Record"
 }
