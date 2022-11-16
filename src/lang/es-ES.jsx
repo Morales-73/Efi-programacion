@@ -50,7 +50,7 @@ export const esp = {
     paginas : [
         {home: "Home"},
         {productos: "Productos"},
-        {registrarse: "Registrarse"},
+        {login: "Login"},
         {contacto: "Contacto"}
     ],
     sabores: [
@@ -93,17 +93,23 @@ export const esp = {
     ],
     contactanos: "Dejanos tu mensaje",
     nombre: "Nombre",
-    email: "Email",
     mensaje: "Mensaje",
     enviar: "Enviar",
-    redes: "Seguinos en nuestras redes sociales",
+    redes: "¡Síguenos en nuestras redes sociales!",
     nombreApellido: "Nombre y Apellido",
-    correo: "Correo Electronico",
+    correo: "Correo electrónico",
     contraseña: "Contraseña",
     repetirContraseña: "Repita su contraseña",
     estoyDeAcuerdo: "Estoy de acuerdo con todos los",
     terminos: "Terminos de servicio",
     derechos: "Todos los derechos reservados",
     nuestrosProductos: "Nuestros productos",
-    verMas: "Ver más"
+    verMas: "Ver más",
+    registrate: "Registrate",
+    registrar: "Registrar",
+    bienvenido: "¡Bienvenido!",
+    recuerdame: "Recuérdame",
+    contraseñaOlvidada: "¿Ha olvidado la contraseña?",
+    sesion: "Iniciar sesion",
+    noTienesCuenta: "¿No tienes una cuenta?"
 }

@@ -50,7 +50,7 @@ export const eng = {
     paginas : [
         {home: "Home"},
         {productos: "Products"},
-        {registrarse: "Register"},
+        {login: "Login"},
         {contacto: "Contact"}
     ],
     sabores: [
@@ -93,10 +93,9 @@ export const eng = {
     ],
     contactanos: "Leave us your message",
     nombre: "Name",
-    email: "E-mail",
     mensaje: "Menssage",
     enviar: "Send",
-    redes: "Follow us on our social networks",
+    redes: "Follow us on our social networks!",
     nombreApellido: "Name and surname",
     correo: "E-mail",
     contraseña: "Password",
@@ -105,5 +104,12 @@ export const eng = {
     terminos: "Terms of service",
     derechos: "All rights reserved",
     nuestrosProductos: "Our products",
-    verMas: "See more"
+    verMas: "See more",
+    registrate: "Sign up",
+    registrar: "Register",
+    bienvenido: "Welcome!",
+    recuerdame: "Remember me",
+    contraseñaOlvidada: "Forgot your password?",
+    sesion: "Login",
+    noTienesCuenta: "Don't have an account?"
 }

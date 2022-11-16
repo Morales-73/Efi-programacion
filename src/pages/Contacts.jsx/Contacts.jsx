@@ -13,14 +13,14 @@ export default function Contacts() {
 
   return (
     <>
-        <div className="row p-5 w-100 vh-100" style={{height:"100%"}}>
-          <div className="col-12 col-sm-12 col-md-12 col-lg-6 p-5 rounded d-flex flex-column justify-content-center">
-            <h1 className={`fs-1 mb-5 text-${theme.color}`}>{contactanos}</h1>
+        <div className="row w-100 mb-5 mt-5 p-1">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-6 p-5 d-flex flex-column justify-content-center">
+            <h1 className={`fs-1 text-center text-${theme.color}`}>{contactanos}</h1>
             <Form/>
           </div>
 
-          <div className="col-12 col-sm-12 col-md-12 col-lg-6 mb-5 d-flex flex-column justify-content-center align-items-center">
-            <h1 className={`fs-1 mb-3 text-${theme.color}`}>{redes}</h1>
+          <div className="col-12 col-sm-12 col-md-12 col-lg-6 mb-5 rounded-3 d-flex flex-column justify-content-center align-items-center">
+            <h1 className={`fs-1 mb-3 ms-5 text-${theme.color}`}>{redes}</h1>
             <div className="d-flex">
               <a href="" target="_blank">
                 <svg className="me-5 bi bi-instagram" xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill={`${theme.color}`} viewBox="0 0 16 16">

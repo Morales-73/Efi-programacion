@@ -27,11 +27,10 @@ export default function Catalogue() {
         {/* <h1 className={`text-center mt-5 mb-5" text-${theme.color}`}>Productos</h1> */}
           <div className="container">
 
-            
-            <div className="mt-2 d-flex justify-content-center">
+            <div className="mt-2 d-flex justify-content-center p-4 gap-3">
                 {categorias.map(c =>
-                    <ul className="nav bg-warning" key={c.id}>
-                        <li className="nav-item"><Link className="text-decoration-none ms-5 me-5 text-white fs-5" onClick={handleLink} href="">{c.titulo}</Link></li>
+                    <ul className="nav bg-warning rounded-4" key={c.id}>
+                        <li className="nav-item"><Link className="text-decoration-none p-5 text-white fs-5" onClick={handleLink} href="">{c.titulo}</Link></li>
                     </ul>
                 )}
             </div>

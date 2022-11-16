@@ -4,7 +4,7 @@ import {langcontext} from '../../context/langContext'
 export default function Form() {
 
     const {idioma} = useContext(langcontext)
-    const {paginas, nombreApellido, correo, contraseña, repetirContraseña, estoyDeAcuerdo, terminos} = idioma
+    const {paginas, registrar, nombreApellido, correo, contraseña, repetirContraseña, estoyDeAcuerdo, terminos} = idioma
 
   return (
     <>
@@ -47,7 +47,7 @@ export default function Form() {
               </div>
 
               <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                  <button type="submit" className="btn btn-primary btn-lg">{paginas[2].registrarse}</button>
+                  <button type="submit" className="btn btn-primary btn-lg">{registrar}</button>
               </div>
           </form>
     </>

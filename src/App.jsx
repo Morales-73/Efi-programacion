@@ -7,6 +7,8 @@ import Products from './pages/Products/Products';
 import Soft404 from './pages/Soft404/Soft404';
 import Registrarse from './pages/Registro/Registrarse';
 import Layout from './pages/Layout/Layout';
+import Login from './pages/Login/Login';
+
 import Sabores from './pages/Products/Sabores';
 import Postres from './pages/Products/Postres';
 import Palitos from './pages/Products/Palitos';
@@ -20,6 +22,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/productos' element={<Products />}></Route>
           <Route path='/contacto' element={<Contacts />}></Route>
+          <Route path='/login' element={<Login/>}></Route>
           <Route path='/registrarse' element={<Registrarse />}></Route>
           <Route path='*' element={<Soft404 />} />
 

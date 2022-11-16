@@ -1,7 +1,8 @@
 import React, {useContext} from 'react'
 import {themeContext} from '../../context/themeContext'
 import Carousel from './Carousel'
-import Catalogue from './Catalogue'
+
+import homeCalidad from "../../img/homeCalidad.jpg"
 
 export default function Home() {
 
@@ -11,7 +12,11 @@ export default function Home() {
     <>
       <div className={`bg-${theme.theme}`}>
         <Carousel/>
-        {/* <Catalogue/> */}
+
+        <div className="container mt-5 mb-5">
+          <img src={homeCalidad} className="rounded-4" alt="Img" />
+        </div>
+
       </div>
     </>
   )
