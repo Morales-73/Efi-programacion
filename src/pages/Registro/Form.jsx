@@ -4,7 +4,7 @@ import {langcontext} from '../../context/langContext'
 export default function Form() {
 
     const {idioma} = useContext(langcontext)
-    const {paginas, registrar, nombreApellido, correo, contraseña, repetirContraseña, estoyDeAcuerdo, terminos} = idioma
+    const {registrar, nombreApellido, correo, contraseña, repetirContraseña, estoyDeAcuerdo, terminos} = idioma
 
   return (
     <>

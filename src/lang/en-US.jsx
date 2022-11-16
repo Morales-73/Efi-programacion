@@ -99,7 +99,7 @@ export const eng = {
     nombreApellido: "Name and surname",
     correo: "E-mail",
     contraseña: "Password",
-    repetirContraseña: "Repeat your password",
+    repetirContraseña: "Confirm Password",
     estoyDeAcuerdo: "I gree with all",
     terminos: "Terms of service",
     derechos: "All rights reserved",

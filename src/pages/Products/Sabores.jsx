@@ -8,7 +8,7 @@ export default function Sabores() {
   const {theme} = useContext(themeContext)
   const {idioma} = useContext(langcontext)
 
-  const {sabores, categorias} = idioma
+  const {sabores} = idioma
 
   return (
     <>

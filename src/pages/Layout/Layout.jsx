@@ -105,7 +105,7 @@ const Layout = () =>{
                 <Outlet />
 
                 {/* Footer */}
-                <div className="d-flex justify-content-around align-items-center flex-column p-5" style={{ backgroundColor: "#a5eea0" }}>
+                <div className="d-flex justify-content-around align-items-center flex-column p-5" style={{ backgroundColor: "#a5eea0"}}>
                     <div>
                         <a href="" target="_blank">
                             <svg className="me-4 bi bi-instagram" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" viewBox="0 0 16 16">
