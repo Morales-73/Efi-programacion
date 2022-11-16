@@ -9,7 +9,7 @@ import durazno from '../img/sabores/durazno.png'
 import flanDulceDeLeche from '../img/sabores/flanDulceLeche.png'
 import granizado from '../img/sabores/granizado.png'
 import limon from '../img/sabores/limon.png'
-import mentaGranizada from '../img/sabores/mentaGranizada.jpg'
+import mentaGranizada from '../img/sabores/mentaGranizada.png'
 import naranjaMango from '../img/sabores/naranjaMango.png'
 import vainilla from '../img/sabores/vainilla.png'
 
@@ -54,18 +54,18 @@ export const esp = {
         {contacto: "Contacto"}
     ],
     sabores: [
-        {id: 1, name: 'Ananá', img: anana},
-        {id: 2, name: 'Chocolate blanco', img: chocolateBlanco},
-        {id: 3, name: 'Chocolate', img: chocolate},
-        {id: 4, name: 'Chocolate con almendras', img: chocolateAlmendrado},
-        {id: 5, name: 'Dulce de leche', img: dulceDeLeche},
-        {id: 6, name: 'Durazno', img: durazno},
-        {id: 7, name: 'Flan con dulce de leche', img: flanDulceDeLeche},
-        {id: 8, name: 'Granizado', img: granizado},
-        {id: 9, name: 'Limón', img: limon},
-        {id: 10, name: 'Naranja mango', img: naranjaMango},
-        {id: 11, name: 'Vainilla', img: vainilla},
-        {id: 12, name: 'Menta granizada', img: mentaGranizada}
+        {id: 1, name: 'Ananá', img: anana, descripcion: "Crema helada sabor a ananá."},
+        {id: 2, name: 'Chocolate blanco', img: chocolateBlanco, descripcion: "Crema helada sabor a chocolate."},
+        {id: 3, name: 'Chocolate', img: chocolate, descripcion: "Crema helada de chocolate."},
+        {id: 4, name: 'Chocolate con almendras', img: chocolateAlmendrado, descripcion: "Crema helada de chocolate con almendras."},
+        {id: 5, name: 'Dulce de leche', img: dulceDeLeche, descripcion: "Crema helada de dulce de leche."},
+        {id: 6, name: 'Durazno', img: durazno, descripcion: "Crema helada sabor durazno."},
+        {id: 7, name: 'Flan con dulce de leche', img: flanDulceDeLeche, descripcion: "Crema helada sabor a vainilla con dulce de leche."},
+        {id: 8, name: 'Granizado', img: granizado, descripcion: "Crema helada sabor a chantilly con chocolate."},
+        {id: 9, name: 'Limón', img: limon, descripcion: "Crema helada sabor a limón."},
+        {id: 10, name: 'Naranja mango', img: naranjaMango, descripcion: "Crema helada sabor a naranja mango."},
+        {id: 11, name: 'Vainilla', img: vainilla, descripcion: "Crema helada sabor a vainilla."},
+        {id: 12, name: 'Menta granizada', img: mentaGranizada, descripcion: "Crema helada sabor a menta con chocolate."}
     ],
     postres: [
         {id: 1, name: 'Almendrado', img: postreAlmendrado},

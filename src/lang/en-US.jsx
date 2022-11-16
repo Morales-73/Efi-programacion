@@ -9,7 +9,7 @@ import durazno from '../img/sabores/durazno.png'
 import flanDulceDeLeche from '../img/sabores/flanDulceLeche.png'
 import granizado from '../img/sabores/granizado.png'
 import limon from '../img/sabores/limon.png'
-import mentaGranizada from '../img/sabores/mentaGranizada.jpg'
+import mentaGranizada from '../img/sabores/mentaGranizada.png'
 import naranjaMango from '../img/sabores/naranjaMango.png'
 import vainilla from '../img/sabores/vainilla.png'
 
@@ -54,18 +54,18 @@ export const eng = {
         {contacto: "Contact"}
     ],
     sabores: [
-        {id: 1, name: 'pineapple', img: anana},
-        {id: 2, name: 'White chocolate', img: chocolateBlanco},
-        {id: 3, name: 'Chocolate', img: chocolate},
-        {id: 4, name: 'Chocolate with almonds', img: chocolateAlmendrado},
-        {id: 5, name: 'Caramel sauce', img: dulceDeLeche},
-        {id: 6, name: 'Peach', img: durazno},
-        {id: 7, name: 'Flan with dulce de leche', img: flanDulceDeLeche},
-        {id: 8, name: 'Granita', img: granizado},
-        {id: 9, name: 'Lemon', img: limon},
-        {id: 10, name: 'mango orange', img: naranjaMango},
-        {id: 11, name: 'Vanilla', img: vainilla},
-        {id: 12, name: 'Minty hail', img: mentaGranizada}
+        {id: 1, name: 'pineapple', img: anana, descripcion: "Pineapple flavored ice cream."},
+        {id: 2, name: 'White chocolate', img: chocolateBlanco, descripcion: "Chocolate flavor ice cream."},
+        {id: 3, name: 'Chocolate', img: chocolate, descripcion: "chocolate ice cream."},
+        {id: 4, name: 'Chocolate with almonds', img: chocolateAlmendrado, descripcion: "Chocolate ice cream with almonds."},
+        {id: 5, name: 'Caramel sauce', img: dulceDeLeche, descripcion: "Dulce de leche ice cream."},
+        {id: 6, name: 'Peach', img: durazno, descripcion: "Peach flavor ice cream."},
+        {id: 7, name: 'Flan with dulce de leche', img: flanDulceDeLeche, descripcion: "Vanilla flavored ice cream with dulce de leche."},
+        {id: 8, name: 'Granita', img: granizado, descripcion: "Chantilly flavor ice cream with chocolate."},
+        {id: 9, name: 'Lemon', img: limon, descripcion: "Lemon flavored ice cream."},
+        {id: 10, name: 'mango orange', img: naranjaMango, descripcion: "Mango orange flavored ice cream."},
+        {id: 11, name: 'Vanilla', img: vainilla, descripcion: "Vanilla flavored ice cream."},
+        {id: 12, name: 'Minty hail', img: mentaGranizada, descripcion: "Mint flavor ice cream with chocolate."}
     ],
     postres: [
         {id: 1, name: 'Nutty', img: postreAlmendrado},
