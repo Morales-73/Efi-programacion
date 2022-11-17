@@ -13,7 +13,7 @@ export default function Catalogue() {
 
     const {categorias} = idioma
 
-    const [option, setOption ] = useState("Sabores")
+    const [option, setOption ] = useState(categorias[0].titulo)
 
     const handleLink = (e) => {
         const value = e.target.text
@@ -33,10 +33,10 @@ export default function Catalogue() {
             </div>
 
             <div>
-                {option === "Sabores" ? <Sabores/> : null}
-                {option === "Postres" ? <Postres/> : null}
-                {option === "Palitos" ? <Palitos/> : null}
-                {option === "Bombones" ? <Bombones/> : null}
+                {option === categorias[0].titulo ? <Sabores/> : null}
+                {option === categorias[1].titulo ? <Postres/> : null}
+                {option === categorias[2].titulo ? <Palitos/> : null}
+                {option === categorias[3].titulo ? <Bombones/> : null}
             </div>
 
           </div>
