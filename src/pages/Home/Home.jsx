@@ -14,7 +14,7 @@ export default function Home() {
         <Carousel/>
 
         <div className="container mt-5 mb-5">
-          <img src={homeCalidad} className="rounded-4" alt="Img" />
+          <img src={homeCalidad} className="rounded-4 img-fluid" alt="Img" />
         </div>
 
       </div>

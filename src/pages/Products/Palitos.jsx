@@ -7,7 +7,7 @@ export default function Palitos() {
   const {theme} = useContext(themeContext)
   const {idioma} = useContext(langcontext)
 
-  const {palitos, categorias} = idioma
+  const {palitos} = idioma
 
   return (
     <>
@@ -16,7 +16,17 @@ export default function Palitos() {
           {palitos.map(p =>
             <div key={p.id}>
               <img className="rounded-4 img-fluid" src={p.img} style={{width:"300px", height:"250px"}} alt="img" />
-              <h4 className={`text-center text-${theme.color}`}>{p.name}</h4>
+              <h4 className={`text-center mt-4 text-${theme.color}`}>{p.name}</h4>
+
+              <div className="d-flex justify-content-center mt-5 mb-5">
+                <div>
+                  <button className="btn btn-outline-success me-3">Agregar</button>
+                </div>
+                <div>
+                  <button className="btn btn-outline-primary w-100">Comprar</button>
+                </div>
+              </div>
+
             </div>
           )}
         </div>

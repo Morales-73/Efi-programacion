@@ -1,6 +1,5 @@
 import React, {useContext, useState} from 'react'
 import {Link} from 'react-router-dom'
-import {themeContext} from '../../context/themeContext';
 import {langcontext} from "../../context/langContext";
 
 import Sabores from "../Products/Sabores"
@@ -10,7 +9,6 @@ import Bombones from "../Products/Bombones"
 
 export default function Catalogue() {
 
-    const {theme} = useContext(themeContext)
     const {idioma} = useContext(langcontext)
 
     const {categorias} = idioma
@@ -24,13 +22,12 @@ export default function Catalogue() {
 
   return (
     <>
-        {/* <h1 className={`text-center mt-5 mb-5" text-${theme.color}`}>Productos</h1> */}
           <div className="container">
 
-            <div className="mt-2 d-flex justify-content-center p-4 gap-3">
+            <div className="mt-2 d-flex justify-content-center p-4 gap-3 flex-column flex-md-row">
                 {categorias.map(c =>
                     <ul className="nav bg-warning rounded-4" key={c.id}>
-                        <li className="nav-item"><Link className="text-decoration-none p-5 text-white fs-5" onClick={handleLink} href="">{c.titulo}</Link></li>
+                        <li className="nav-item px-5"><Link className="text-decoration-none text-white fs-5" onClick={handleLink} href="">{c.titulo}</Link></li>
                     </ul>
                 )}
             </div>
