@@ -111,5 +111,7 @@ export const esp = {
     recuerdame: "Recuérdame",
     contraseñaOlvidada: "¿Ha olvidado la contraseña?",
     sesion: "Iniciar sesion",
-    noTienesCuenta: "¿No tienes una cuenta?"
+    noTienesCuenta: "¿No tienes una cuenta?",
+    nuestraHistoria: "Nuestra historia",
+    historia: "Desde hace más de 20 años brindamos una experiencia deliciosa, sana y placentera fabricando diversas presentaciones de cremas y postres helados, para transformar las experiencias de consumo y comercialización. Con pilares fundamentales como calidad, servicio, confianza y compromiso, desarrollamos un modelo de sustentable de franquicias que se expande en 5 provincias. Establecimos nuevas gamas de productos para grandes superficies que también permitieron captar mercados mayorista y minorista."
 }

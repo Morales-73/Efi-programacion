@@ -111,5 +111,7 @@ export const eng = {
     recuerdame: "Remember me",
     contraseñaOlvidada: "Forgot your password?",
     sesion: "Login",
-    noTienesCuenta: "Don't have an account?"
+    noTienesCuenta: "Don't have an account?",
+    nuestraHistoria: "Our history",
+    historia: "For more than 20 years we have provided a delicious, healthy and pleasant experience manufacturing various presentations of creams and frozen desserts, to transform consumer and marketing experiences. With fundamental pillars such as quality, service, trust and commitment, we developed a sustainable franchise model that expands in 5 provinces. We established new product ranges for large stores that also allowed us to capture wholesale and retail markets."
 }

@@ -34,7 +34,7 @@ const Layout = () =>{
     return(
 
         <>
-            <div className={`bg-${theme.theme}`}>
+            <div className={`bg-${theme.theme}`} style={{fontFamily: 'Karla'}}>
                 {/* Navbar */}
                 <nav className={`navbar shadow-sm p-4 sticky-top navbar-expand-lg bg-${theme.theme} border-bottom border-4`}>
                     <div className="container">
